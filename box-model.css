@@ -1,0 +1,24 @@
+.callout {
+    background-color: blue;
+    padding: 10px;
+	
+}
+
+.callout img {
+    width: 1000px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+	
+}
+
+blockquote {
+    margin-left: auto;
+	
+}
+
+cite {
+    padding-left: 10px;
+	
+}
