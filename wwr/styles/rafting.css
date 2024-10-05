@@ -1,0 +1,22 @@
+:root {
+    --rafting-background-color: rgb(234, 131, 222,);
+    --rafting-text-color: rgb(131, 222, 234);
+    --rafting-font: 'Montserrat', Helvetica, sans-serif;
+    --padding: 1rem;
+    --border-image: 1px solid rgb(221,222, 132);
+    --margin: 2rem;
+}
+
+header {
+    width: 1000%;
+    margin: var(--margin);
+    padding: var(--padding);
+    background-color: var(--rafting-background-color);
+    border-image: var(--border-image);
+}
+
+nav log-box {
+    image-rendering: auto;
+    padding: 100px;
+    margin: 1rem;
+}

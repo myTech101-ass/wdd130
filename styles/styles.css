@@ -1,9 +1,12 @@
 :root {
     --style-background-color: rgb(0, 204, 255);
+    --background-color: rgba(36, 105, 36, 0.767);
     --style-text-color: #333;
     --style-font: 'Montserrat', Helvetica, sans-serif;
     --padding: 1rem;
     --border: 1px solid rgba(0,0,0,0.1);
+    --display: rgba(85, 51, 68, 0.2);
+    --color: rgba(38, 32, 32);
 }
 
 main {
@@ -37,14 +40,17 @@ aside img {
 
 
 nav {
-    background-color: steelblue;
+    background-color: var(--background-color);
     padding: 10px;
 }
 
+
 nav a {
-    color: white;
+    color: var(--color);
     display: block;
     padding: 20px;
+    text-align: center;
+    
 }
 
 div {
