@@ -1,43 +1,16 @@
 :root {
     --style-background-color: rgb(0, 204, 255);
-    --background-color: rgba(36, 105, 36, 0.767);
+    --background-color: rgb(255, 240, 240);
     --style-text-color: #333;
     --style-font: 'Montserrat', Helvetica, sans-serif;
-    --padding: 1rem;
+    --padding: 0px;
     --border: 1px solid rgba(0,0,0,0.1);
     --display: rgba(85, 51, 68, 0.2);
     --color: rgba(38, 32, 32);
-}
+    --margin: 0px;
+    --box-sizzing: border-box;
 
-main {
-    max-width: 840px;
 }
-
-main img {
-    width: 150px;
-    height: auto;
-    background-color: var(--style-background-color);
-}
-
-aside {
-    width: 20rem;
-    margin: 1rem;
-    border: var(--border);
-    padding: 2px;
-    background-color: var(--style-background-color);
-    color: aliceblue;
-    text-align: center;
-}
-
-h2 {
-    color: var(--style-text-color);
-}
-
-aside img {
-    width: 200px;
-    height: auto;
-}
-
 
 nav {
     background-color: var(--background-color);
@@ -47,7 +20,7 @@ nav {
 
 nav a {
     color: var(--color);
-    display: block;
+    /* display: block; */
     padding: 20px;
     text-align: center;
     
@@ -63,11 +36,60 @@ div {
     text-align: center;
 }
 
+main {
+    max-width: 840px;
+}
+
 h1 {
     color: var(--style-text-color);
 }
 
-img {
+main img {
+    width: 150px;
+    height: auto;
+    /* background-color: var(--style-background-color); */
+    float: right;
+}
+
+li {
+    margin: 1000px;
+    padding: 1000px;
+    box-sizing: var(--box-sizzing);
+}
+
+/* class selector */
+
+.box{
+    margin: 1rem;
+    padding: 1rem;
+    border:1px solid rgba(0,0,0,.1);
+    background-color: aliceblue;
+    color: antiquewhite;
+}
+
+aside {
+    width: 20rem;
+    /* margin: 1rem; */
+    /* border: var(--border); */
+    /* padding: 2px; */
+    /* background-color: var(--style-background-color); */
+    /* color: aliceblue; */
+    text-align: center;
+}
+
+aside h2 {
+    position: absolute;
+    top: 47px;
+    left: 150px;
+}
+
+aside img {
+    width: 200px;
+    height: 200px;
+    padding: 1rem;
+}
+
+.img {
     width: 200px;
     height: auto;
     border: 1px solid steelblue;
