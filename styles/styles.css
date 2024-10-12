@@ -70,11 +70,11 @@ main img {
     float: right;
 }
 
-li {
-    margin: 1000px;
-    padding: 1000px;
+/* li {
+    margin: 10px;
+    padding: 10px;
     box-sizing: var(--box-sizzing);
-}
+} */
 
 /* class selector */
 
@@ -84,6 +84,16 @@ li {
     border:1px solid rgba(0,0,0,.1);
     background-color: aliceblue;
     color: antiquewhite;
+}
+
+ul .box {
+    /* margin: 1rem;
+    padding: 1rem;
+    border:1px solid rgba(0,0,0,.1);
+    background-color: aliceblue;
+    color: antiquewhite; */
+    max-width: 840px;
+    margin: 0 auto;
 }
 
 aside {
