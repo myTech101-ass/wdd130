@@ -86,7 +86,7 @@ main img {
     color: antiquewhite;
 }
 
-ul .box {
+ul {
     /* margin: 1rem;
     padding: 1rem;
     border:1px solid rgba(0,0,0,.1);
@@ -94,6 +94,9 @@ ul .box {
     color: antiquewhite; */
     max-width: 840px;
     margin: 0 auto;
+    background-color: aliceblue;
+    border:1px solid rgba(0,0,0,.1);
+    
 }
 
 aside {
