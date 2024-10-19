@@ -22,7 +22,7 @@ body {
     background-color:antiquewhite
 }
 
-header, .grid, .footer {
+header{
     margin: 1rem auto;
     display: grid;
     grid-template-columns: 120px 1fr 2fr;
@@ -78,35 +78,71 @@ nav {
 }
 
 h1 {
-
+    /* position: absolute; */
     font-size: 2rem;
     font-family: Acme, Arial, sans-serif;
     text-align: center;
+} 
+
+div {
+    position: relative;
 }
+
+.hero{
+
+    /* position: absolute; */
+    background-size: cover;
+    background-position: center;
+    height: auto;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 10px;
+    float: left;
+    /* background-color:#000 ; */
+    color:#000 ;
+    padding: 20px;
+    /* border-radius: 5px; */
+    width: 50%;
+}
+
+/* .hero h1 {
+    position: absolute;
+    font-size: 2rem;
+    font-family: Acme, Arial, sans-serif;
+    text-align: center;
+} */
 
 .hero img{
-    float: right;
+    /* float: right; */
     display: block;
     width: 100%;
-    height: auto;
+    height: 400px;
     position: relative;
-    max-width: 200px;
-    max-height: 150px;
+    /* max-width: 200px; */
+    /* max-height: 150px; */
     cursor: zoom-out;
     padding: 1rem;
-    -webkit-validation-bubble-text-block:var(--border-image);
+    /* -webkit-validation-bubble-text-block:var(--border-image); */
 
 }
 
- section {
+.hero article img {
+    float: right;
+    width: 200px;
+    height: auto;
+}
+ .section {
     display: flex;
     flex-direction: row wrap;
     /* flex-wrap: wrap; */
     flex: 200px;  
 } 
 
-h2 {
+.section h2 {
 
+    position: absolute;
     font-size: 2rem;
     font-family: Acme, Helvetica, sans-serif;
     text-align: center;
