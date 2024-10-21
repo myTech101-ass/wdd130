@@ -61,12 +61,12 @@ input, select, textarea {
     font-size: 1rem;
 }
 
-input[type="checkbox"] {
+/* input[type="checkbox"] {
     width: 2px;
     height: 2px;
     vertical-align: bottom;
     color:black;
-}
+} */
 
 button {
     margin: 1rem;
