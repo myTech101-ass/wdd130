@@ -1,3 +1,14 @@
+:root {
+    --rafting-background-color: rgb(234, 131, 222,);
+    --rafting-text-color: rgb(131, 222, 234);
+    --rafting-font: 'Montserrat', Helvetica, sans-serif;
+    --padding: 1rem;
+    --border-image: 1px solid rgb(221,222, 132);
+    --margin: 2rem;
+    --background-images: images/Happy_picture.jpy;
+}
+
+
 html{
     height: 100%;
 }
